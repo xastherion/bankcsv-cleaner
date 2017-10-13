@@ -48,7 +48,7 @@ Sub banco_csv_limpiar()
    
     'columna de el monto, le asigna el formato moneda
     Columns("C:C").NumberFormat = _
-        "_-* #,##0.00 [$€-de-DE]_-;-* #,##0.00 [$€-de-DE]_-;_-* ""-""?? [$€-de-DE]_-;_-@_-"
+        "_-* #,##0.00 [$â‚¬-de-DE]_-;-* #,##0.00 [$â‚¬-de-DE]_-;_-* ""-""?? [$â‚¬-de-DE]_-;_-@_-"
     
     'fila uno, en negrita
     Rows("1:1").Font.Bold = True
